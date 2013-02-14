@@ -45,11 +45,11 @@ res1=$(date +%s.%N)
 echo -e '\0033\0143'
 clear
 
-echo -e "${cya}Building ${bldcya}B ${bldcya}A ${bldcya}M ${bldblu}v$VERSION ${txtrst}";
+echo -e "${cya}Building ${bldcya}B ${bldcya}A ${bldcya}M ${cya}v$VERSION ${txtrst}";
 
 # JellyBam device dependencies
 echo -e ""
-echo -e "${bldblu}Looking for JELLYBAM product dependencies ${txtrst}${cya}"
+echo -e "${cya}Looking for ${bldcya}JELLYBAM ${cya}product dependencies ${txtrst}${cya}"
 ./vendor/jellybam/tools/getdependencies.py $DEVICE
 echo -e "${txtrst}"
 
@@ -67,7 +67,7 @@ esac
 
 # download prebuilt files
 echo -e ""
-echo -e "${bldblu}Downloading prebuilts ${txtrst}"
+echo -e "${cya}Downloading prebuilts ${txtrst}"
 cd vendor/cm
 ./get-prebuilts
 cd ./../..
@@ -85,16 +85,16 @@ fi
 rm -f out/target/product/*/obj/KERNEL_OBJ/.version
 
 # setup environment
-echo -e "${bldblu}Setting up environment ${txtrst}"
+echo -e "${cya}Setting up environment ${txtrst}"
 . build/envsetup.sh
 
 # lunch device
 echo -e ""
-echo -e "${bldblu}Lunching device ${txtrst}"
+echo -e "${cya}Lunching device ${bldcya} ${txtrst}"
 lunch "jellybam_$DEVICE-userdebug";
 
 echo -e ""
-echo -e "${bldblu}Starting compilation ${txtrst}"
+echo -e "${bldcya}Starting compilation ${txtrst}"
 
 # start compilation
 mka bacon
