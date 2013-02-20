@@ -93,6 +93,11 @@ echo -e ""
 echo -e "${cya}Lunching device ${bldcya} ${txtrst}"
 lunch "jellybam_$DEVICE-userdebug";
 
+# Build.prop
+echo -e ""
+echo -e "${bldcya}Cleaning Build Prop if exist ${txtrst}"
+rm out/target/product/$DEVICE/system/build.prop
+
 echo -e ""
 echo -e "${bldcya}Starting compilation ${txtrst}"
 
