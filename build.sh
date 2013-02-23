@@ -45,7 +45,7 @@ res1=$(date +%s.%N)
 echo -e '\0033\0143'
 clear
 
-echo -e "${cya}Building ${bldcya}B ${bldcya}A ${bldcya}M ${cya}v$VERSION ${txtrst}";
+echo -e "${cya}Building ${bldcya}B ${cya}A ${bldcya}M ${cya}v$VERSION ${txtrst}";
 
 # JellyBam device dependencies
 echo -e ""
