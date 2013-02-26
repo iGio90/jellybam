@@ -14,7 +14,6 @@ sh bam-build.sh i9300;
 sh bam-build.sh mako;
 sh bam-build.sh n7000;
 sh bam-build.sh n7100;
-sh bam-build.sh pyramid;
 sh bam-build.sh quincyatt;
 sh bam-build.sh ville;
 
