@@ -12,8 +12,12 @@ sh bam-build.sh i9100;
 sh bam-build.sh i9100g;
 sh bam-build.sh i9300;
 sh bam-build.sh mako;
+sh bam-build.sh mint;
 sh bam-build.sh n7000;
 sh bam-build.sh n7100;
 sh bam-build.sh quincyatt;
+sh bam-build.sh p930;
+sh bam-build.sh p970;
+sh bam-build.sh p990;
 sh bam-build.sh ville;
 
