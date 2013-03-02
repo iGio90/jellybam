@@ -11,6 +11,7 @@ sh bam-build.sh i777;
 sh bam-build.sh i9100;
 sh bam-build.sh i9100g;
 sh bam-build.sh i9300;
+sh bam-build.sh maguro;
 sh bam-build.sh mako;
 sh bam-build.sh mint;
 sh bam-build.sh n7000;
