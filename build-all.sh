@@ -7,6 +7,7 @@ sh bam-build.sh d2vzw;
 sh bam-build.sh endeavoru;
 sh bam-build.sh evita;
 sh bam-build.sh galaxysmtd;
+sh bam-build.sh jewel;
 sh bam-build.sh i777;
 sh bam-build.sh i9100;
 sh bam-build.sh i9100g;
