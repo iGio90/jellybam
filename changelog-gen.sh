@@ -23,14 +23,14 @@ do
     else
         # Prepend group project ownership to each project.
         origin=`grep "$project" $rdir/.repo/manifest.xml | awk {'print $4'} | cut -f2 -d '"'`
-        if [ "$origin" = "jellybam" ]; then
+        if [ "$origin" = "bam" ]; then
             proj_credit=JELLYBAM
         elif [ "$origin" = "aosp" ]; then
             proj_credit=AOSP
         elif [ "$origin" = "cm" ]; then
             proj_credit=CyanogenMod
         else
-            proj_credit=""
+            proj_credit="CyanogenMod"
         fi
         # Write the changelog
         echo "$proj_credit Project name: $project" >> "$rdir"/Changelog_$cdate.txt
