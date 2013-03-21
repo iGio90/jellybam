@@ -50,25 +50,25 @@ sleep 5
 	sh bam-build.sh evita
 		scp out/target/product/evita/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/evita/
 		scp out/target/product/evita/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
+		ssh firecontrol.in cronjelly
 
 echo "Woaaaaah it's endeavoru time!"
 sleep 5
 	sh bam-build.sh endeavoru
 		scp out/target/product/endeavoru/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/endeavoru/
 		scp out/target/product/endeavoru/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
+		ssh firecontrol.in cronjelly
 
 echo "Woaaaaah it's evita time!"
 sleep 5
 	sh bam-build.sh evita
 		scp out/target/product/evita/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/evita/
 		scp out/target/product/evita/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
+		ssh firecontrol.in cronjelly
 
 echo "Woaaaaah it's jewel time!"
 sleep 5
 	sh bam-build.sh jewel
 		scp out/target/product/jewel/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jewel/
 		scp out/target/product/jewel/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
+		ssh firecontrol.in cronjelly
