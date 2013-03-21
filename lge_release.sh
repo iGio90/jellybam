@@ -39,32 +39,27 @@ sleep 5
 	sh bam-build.sh mako
 		scp out/target/product/mako/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mako/
 		scp out/target/product/mako/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
 
 echo "Woaaaaah it's p920 time!"
 sleep 5
 	sh bam-build.sh p920
 		scp out/target/product/p920/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p920/
 		scp out/target/product/p920/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
 
 echo "Woaaaaah it's p930 time!"
 sleep 5
 	sh bam-build.sh p930
 		scp out/target/product/p930/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p930/
 		scp out/target/product/p930/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
 
 echo "Woaaaaah it's p970 time!"
 sleep 5
 	sh bam-build.sh p970
 		scp out/target/product/p970/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p970/
 		scp out/target/product/p970/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
 
 echo "Woaaaaah it's p990 time!"
 sleep 5
 	sh bam-build.sh p990
 		scp out/target/product/p990/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p990/
 		scp out/target/product/p990/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt

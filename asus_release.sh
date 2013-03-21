@@ -39,11 +39,9 @@ sleep 5
 	sh bam-build.sh grouper
 		scp out/target/product/grouper/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/grouper/
 		scp out/target/product/grouper/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
 
 echo "Woaaaaah it's tilapia time!"
 sleep 5
 	sh bam-build.sh tilapia
 		scp out/target/product/tilapia/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tilapia/
 		scp out/target/product/tilapia/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
