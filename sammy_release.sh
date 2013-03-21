@@ -1,33 +1,35 @@
+#!/bin/bash
+
 echo "first of all, let's sync the repoes"
 sleep 5
-repo sync
+repo sync -j12
 
 echo "great, now... to avoid device tree conflict it's better if we remove other manufacturer device tree"
 sleep 5
 
 if [ -d device/htc/ ]; then
-	echo "founded htc device tree... cleaning"
+	printf "founded htc device tree... cleaning \n"
 	rm -r device/htc/
 else
-	echo "htc device tree not founded"
+	printf "htc device tree not founded \n"
 fi
 if [ -d device/asus/ ]; then
-	echo "founded asus device tree... cleaning"
+	printf "founded asus device tree... cleaning \n"
 	rm -r device/asus/
 else
-	echo "asus device tree not founded"
+	printf "asus device tree not founded \n"
 fi
 if [ -d device/lge/ ]; then
-	echo "founded lge device tree... cleaning"
+	printf "founded lge device tree... cleaning \n"
 	rm -r device/lge/
 else
-	echo "lge device tree not founded"
+	printf "lge device tree not founded \n"
 fi
 if [ -d device/sony/ ]; then
-	echo "founded sony device tree... cleaning"
+	printf "founded sony device tree... cleaning \n"
 	rm -r device/sony"
 else
-	echo "sony device tree not founded"
+	printf "sony device tree not founded \n"
 fi
 sleep 5
 
