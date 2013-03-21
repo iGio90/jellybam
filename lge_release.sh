@@ -33,6 +33,17 @@ else
 fi
 sleep 5
 
+echo "to avoid uploading multiple version, is better if we clean every jellybam zip."
+sleep 5
+read -p "Should i remove every jellybam zip? (y/n) " RESP
+if [ "$RESP" = "y" ]; then
+        echo "Ok! cleaning all jellybam zip, please.. be patient"
+        rm out/target/product/*/jellybam-*
+else
+  echo "Neverming, i'll leave them all"
+fi
+sleep 5
+
 echo "let's begin!"
 sleep5
 
