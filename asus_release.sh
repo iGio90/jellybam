@@ -11,11 +11,11 @@ if [ -d device/htc/ ]; then
 else
 	echo "htc device tree not founded"
 fi
-if [ -d device/asus/ ]; then
-	echo "founded asus device tree... cleaning"
-	rm -r device/asus/
+if [ -d device/sony/ ]; then
+	echo "founded sony device tree... cleaning"
+	rm -r device/sony/
 else
-	echo "asus device tree not founded"
+	echo "sony device tree not founded"
 fi
 if [ -d device/samsung/ ]; then
 	echo "founded samsung device tree... cleaning"
@@ -34,16 +34,16 @@ sleep 5
 echo "let's begin!"
 sleep5
 
-echo "Woaaaaah it's mint time!"
+echo "Woaaaaah it's grouper time!"
 sleep 5
-	sh bam-build.sh mint
-		scp out/target/product/mint/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mint/
-		scp out/target/product/mint/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+	sh bam-build.sh grouper
+		scp out/target/product/grouper/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/grouper/
+		scp out/target/product/grouper/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
 
-echo "Woaaaaah it's tsubasa time!"
+echo "Woaaaaah it's tilapia time!"
 sleep 5
-	sh bam-build.sh tsubasa
-		scp out/target/product/tsubasa/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tsubasa/
-		scp out/target/product/tsubasa/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+	sh bam-build.sh tilapia
+		scp out/target/product/tilapia/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tilapia/
+		scp out/target/product/tilapia/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 		ssh firecontrol.in touch /home/Jellybam/upload/start.txt

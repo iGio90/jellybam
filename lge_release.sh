@@ -21,7 +21,7 @@ if [ -d device/samsung/ ]; then
 	echo "founded samsung device tree... cleaning"
 	rm -r device/samsung/
 else
-	echo "lge device tree not founded"
+	echo "samsung device tree not founded"
 fi
 if [ -d device/sony/ ]; then
 	echo "founded sony device tree... cleaning"
