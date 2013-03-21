@@ -45,7 +45,7 @@ echo "Woaaaaah it's p920 time!"
 sleep 5
 	sh bam-build.sh p920
 		scp out/target/product/p920/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p920/
-		scp out/target/product/o920/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+		scp out/target/product/p920/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
 
 echo "Woaaaaah it's p930 time!"
