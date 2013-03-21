@@ -50,11 +50,11 @@ sleep 5
 	sh bam-build.sh mint
 		scp out/target/product/mint/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mint/
 		scp out/target/product/mint/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
+		ssh firecontrol.in cronjelly
 
 echo "Woaaaaah it's tsubasa time!"
 sleep 5
 	sh bam-build.sh tsubasa
 		scp out/target/product/tsubasa/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tsubasa/
 		scp out/target/product/tsubasa/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-		ssh firecontrol.in touch /home/Jellybam/upload/start.txt
+		ssh firecontrol.in cronjelly
