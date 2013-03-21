@@ -27,7 +27,7 @@ else
 fi
 if [ -d device/lge/ ]; then
 	printf "founded lge device tree... cleaning \n"
-	rm -r device/lge"
+	rm -r device/lge
 else
 	printf "lge device tree not founded \n"
 fi

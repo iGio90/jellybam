@@ -27,7 +27,7 @@ else
 fi
 if [ -d device/sony/ ]; then
 	printf "founded sony device tree... cleaning \n"
-	rm -r device/sony"
+	rm -r device/sony
 else
 	printf "sony device tree not founded \n"
 fi
