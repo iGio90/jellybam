@@ -45,7 +45,7 @@ fi
 sleep 5
 
 echo "let's begin!"
-sleep5
+sleep 5
 
 echo "Woaaaaah it's mint time!"
 sleep 5
