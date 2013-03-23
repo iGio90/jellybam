@@ -59,14 +59,15 @@ sleep 5
 		scp out/target/product/endeavoru/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/endeavoru/
 		scp out/target/product/endeavoru/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 
-echo "Woaaaaah it's evita time!"
-sleep 5
-	sh bam-build.sh evita
-		scp out/target/product/evita/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/evita/
-		scp out/target/product/evita/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
-
 echo "Woaaaaah it's jewel time!"
 sleep 5
 	sh bam-build.sh jewel
 		scp out/target/product/jewel/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jewel/
 		scp out/target/product/jewel/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's ville time!"
+sleep 5
+        sh bam-build.sh ville
+                scp out/target/product/ville/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/ville/
+                scp out/target/product/ville/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
