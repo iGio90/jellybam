@@ -53,6 +53,18 @@ sleep 5
 		scp out/target/product/grouper/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/grouper/
 		scp out/target/product/grouper/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 
+echo "Woaaaaah it's tf300t time!"
+sleep 5
+        sh bam-build.sh tf300t
+                scp out/target/product/tf3007/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tf300t/
+                scp out/target/product/tf300t/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's tf700t time!"
+sleep 5
+        sh bam-build.sh tf700t
+                scp out/target/product/tf700t/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tf700t/
+                scp out/target/product/tf700t/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
 echo "Woaaaaah it's tilapia time!"
 sleep 5
 	sh bam-build.sh tilapia

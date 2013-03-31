@@ -155,6 +155,18 @@ sleep 5
                 scp out/target/product/n8000/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/n8000/
                 scp out/target/product/n8000/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 
+echo "Woaaaaah it's p3100 time!"
+sleep 5
+        sh bam-build.sh p3100
+                scp out/target/product/p3100/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p3100/
+                scp out/target/product/p3100/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's p3110 time!"
+sleep 5
+        sh bam-build.sh p3110
+                scp out/target/product/p3110/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p3110/
+                scp out/target/product/p3110/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
 echo "Woaaaaah it's p5100 time!"
 sleep 5
         sh bam-build.sh p5100
