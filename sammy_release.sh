@@ -101,6 +101,12 @@ sleep 5
                 scp out/target/product/galaxysmtd/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/galaxysmtd/
                 scp out/target/product/galaxysmtd/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 
+echo "Woaaaaah it's hercules time!"
+sleep 5
+        sh bam-build.sh hercules
+                scp out/target/product/hercules/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/hercules/
+                scp out/target/product/hercules/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
 echo "Woaaaaah it's i777 time!"
 sleep 5
         sh bam-build.sh i777
@@ -136,6 +142,12 @@ sleep 5
         sh bam-build.sh maguro
                 scp out/target/product/maguro/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/maguro/
                 scp out/target/product/maguro/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's mesmerizemtd time!"
+sleep 5
+        sh bam-build.sh mesmerizemtd
+                scp out/target/product/mesmerizemtd/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mesmerizemtd/
+                scp out/target/product/mesmerizemtd/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 
 echo "Woaaaaah it's n7000 time!"
 sleep 5
@@ -184,3 +196,21 @@ sleep 5
         sh bam-build.sh quincyatt
                 scp out/target/product/quincyatt/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/quincyatt/
                 scp out/target/product/quincyatt/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's skyrocket time!"
+sleep 5
+        sh bam-build.sh skyrocket
+                scp out/target/product/skyrocket/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/skyrocket/
+                scp out/target/product/skyrocket/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's t0lte time!"
+sleep 5
+        sh bam-build.sh t0lte
+                scp out/target/product/t0lte/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/t0lte/
+                scp out/target/product/t0lte/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's vibrantmtd time!"
+sleep 5
+        sh bam-build.sh vibrantmtd
+                scp out/target/product/vibrantmtd/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/vibrantmtd/
+                scp out/target/product/vibrantmtd/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/

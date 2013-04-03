@@ -53,6 +53,12 @@ sleep 5
 		scp out/target/product/mako/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mako/
 		scp out/target/product/mako/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
 
+echo "Woaaaaah it's p760 time!"
+sleep 5
+        sh bam-build.sh p760
+                scp out/target/product/p760/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p760/
+                scp out/target/product/p760/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
 echo "Woaaaaah it's p920 time!"
 sleep 5
 	sh bam-build.sh p920
@@ -76,3 +82,9 @@ sleep 5
 	sh bam-build.sh p990
 		scp out/target/product/p990/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p990/
 		scp out/target/product/p990/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+
+echo "Woaaaaah it's vs920 time!"
+sleep 5
+        sh bam-build.sh vs920
+                scp out/target/product/vs920/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/vs920/
+                scp out/target/product/vs920/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
