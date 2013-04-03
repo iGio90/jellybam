@@ -51,10 +51,10 @@ echo "Woaaaaah it's mint time!"
 sleep 5
 	sh bam-build.sh mint
 		scp out/target/product/mint/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mint/
-		scp out/target/product/mint/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+		scp out/target/product/mint/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's tsubasa time!"
 sleep 5
 	sh bam-build.sh tsubasa
 		scp out/target/product/tsubasa/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tsubasa/
-		scp out/target/product/tsubasa/jellybam*.zip root@firecontrol.in:/home/Jellybam/upload/
+		scp out/target/product/tsubasa/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
