@@ -89,6 +89,12 @@ sleep 5
 		scp out/target/product/d2vzw/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/d2vzw/
  		scp out/target/product/d2vzw/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
+echo "Woaaaaah it's epicmtd time!"
+sleep 5
+        sh bam-build.sh epicmtd
+                scp out/target/product/epicmtd/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/epicmtd/
+                scp out/target/product/epicmtd/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's fascinatemtd time!"
 sleep 5
         sh bam-build.sh fascinatemtd
