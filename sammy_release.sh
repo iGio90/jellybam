@@ -113,6 +113,12 @@ sleep 5
                 scp out/target/product/hercules/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/hercules/
                 scp out/target/product/hercules/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
+echo "Woaaaaah it's i605 time!"
+sleep 5
+        sh bam-build.sh i605
+                scp out/target/product/i605/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/i605/
+                scp out/target/product/i605/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's i777 time!"
 sleep 5
         sh bam-build.sh i777
@@ -142,6 +148,12 @@ sleep 5
         sh bam-build.sh i9300
                 scp out/target/product/i9300/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/i9300/
                 scp out/target/product/i9300/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
+echo "Woaaaaah it's i9305 time!"
+sleep 5
+        sh bam-build.sh i9305
+                scp out/target/product/i9305/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/i9305/
+                scp out/target/product/i9305/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's maguro time!"
 sleep 5
