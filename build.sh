@@ -47,6 +47,10 @@ clear
 
 echo -e "${cya}Building ${bldcya}B ${cya}A ${bldcya}M ${cya}v$VERSION ${txtrst}";
 
+# We shouldn't leave this as it can cause so much conflicts between specific device dependencies
+rm -f .repo/local_manifest.xml
+rm -f .repo/local_manifests/roomservice.xml
+
 # JellyBam device dependencies
 echo -e ""
 echo -e "${cya}Looking for ${bldcya}JELLYBAM ${cya}product dependencies ${txtrst}${cya}"
@@ -96,7 +100,7 @@ lunch "jellybam_$DEVICE-userdebug";
 # Build.prop
 echo -e ""
 echo -e "${bldcya}Cleaning Build Prop if exist ${txtrst}"
-rm out/target/product/$DEVICE/system/build.prop
+rm -f out/target/product/$DEVICE/system/build.prop
 
 echo -e ""
 echo -e "${bldcya}Starting compilation ${txtrst}"
