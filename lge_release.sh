@@ -81,8 +81,8 @@ sleep 5
 		scp out/target/product/p990/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p990/
 		scp out/target/product/p990/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
-echo "Woaaaaah it's vs920 time!"
+echo "Woaaaaah it's su640 time!"
 sleep 5
-        sh bam-build.sh vs920
-                scp out/target/product/vs920/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/vs920/
-                scp out/target/product/vs920/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+        sh bam-build.sh su640
+                scp out/target/product/su640/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/su640/
+                scp out/target/product/su640/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
