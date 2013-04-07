@@ -63,6 +63,24 @@ sleep 5
 		scp out/target/product/jewel/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jewel/
 		scp out/target/product/jewel/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
+echo "Woaaaaah it's shooter time!"
+sleep 5
+        sh bam-build.sh shooter
+                scp out/target/product/shooter/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/shooter/
+                scp out/target/product/shooter/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
+echo "Woaaaaah it's shooteru time!"
+sleep 5
+        sh bam-build.sh shooteru
+                scp out/target/product/shooteru/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/shooteru/
+                scp out/target/product/shooteru/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
+echo "Woaaaaah it's shootervm time!"
+sleep 5
+        sh bam-build.sh shootervm
+                scp out/target/product/shootervm/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/shootervm/
+                scp out/target/product/shootervm/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's ville time!"
 sleep 5
         sh bam-build.sh ville
