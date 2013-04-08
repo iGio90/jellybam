@@ -212,6 +212,12 @@ sleep 5
                 scp out/target/product/quincyatt/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/quincyatt/
                 scp out/target/product/quincyatt/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
+echo "Woaaaaah it's r950 time!"
+sleep 5
+        sh bam-build.sh r950
+                scp out/target/product/r950/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/r950/
+                scp out/target/product/r950/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's skyrocket time!"
 sleep 5
         sh bam-build.sh skyrocket
