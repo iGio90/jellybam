@@ -63,6 +63,12 @@ sleep 5
 		scp out/target/product/jewel/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jewel/
 		scp out/target/product/jewel/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
+echo "Woaaaaah it's pyramid time!"
+sleep 5
+        sh bam-build.sh pyramid
+                scp out/target/product/pyramid/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/pyramid/
+                scp out/target/product/pyramid/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's shooter time!"
 sleep 5
         sh bam-build.sh shooter
