@@ -57,3 +57,9 @@ sleep 5
 	sh bam-build.sh tsubasa
 		scp out/target/product/tsubasa/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tsubasa/
 		scp out/target/product/tsubasa/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
+echo "Woaaaaah it's yuga time!"
+sleep 5
+        sh bam-build.sh yuga
+                scp out/target/product/yuga/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/yuga/
+                scp out/target/product/yuga/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
