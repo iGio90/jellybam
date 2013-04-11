@@ -230,6 +230,18 @@ sleep 5
                 scp out/target/product/t0lte/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/t0lte/
                 scp out/target/product/t0lte/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
+echo "Woaaaaah it's t0lteatt time!"
+sleep 5
+        sh bam-build.sh t0lteatt
+                scp out/target/product/t0lteatt/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/t0lteatt/
+                scp out/target/product/t0lteatt/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
+echo "Woaaaaah it's t0ltetmo time!"
+sleep 5
+        sh bam-build.sh t0ltetmo
+                scp out/target/product/t0ltetmo/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/t0ltetmo/
+                scp out/target/product/t0ltetmo/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's vibrantmtd time!"
 sleep 5
         sh bam-build.sh vibrantmtd
