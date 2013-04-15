@@ -201,6 +201,18 @@ sleep 5
                 scp out/target/product/p3110/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p3110/
                 scp out/target/product/p3110/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
+echo "Woaaaaah it's p4 time!"
+sleep 5
+        repo sync -j15 && sh bam-build.sh p4
+                scp out/target/product/p4/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p4/
+                scp out/target/product/p4/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
+echo "Woaaaaah it's p4wifi time!"
+sleep 5
+        repo sync -j15 && sh bam-build.sh p4wifi
+                scp out/target/product/p4wifi/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p4wifi/
+                scp out/target/product/p4wifi/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's p5100 time!"
 sleep 5
         repo sync -j15 && sh bam-build.sh p5100
