@@ -52,6 +52,12 @@ echo ""
 echo "let's begin!"
 sleep 5
 
+echo "Woaaaaah it's doubleshot time!"
+sleep 5
+        repo sync -j15 && sh bam-build.sh doubleshot
+                scp out/target/product/doubleshot/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/doubleshot/
+                scp out/target/product/doubleshot/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
 echo "Woaaaaah it's evita time!"
 sleep 5
 	repo sync -j15 && sh bam-build.sh evita
