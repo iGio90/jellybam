@@ -42,6 +42,13 @@ if [ -d device/lge/ ]; then
 else
 	printf "lge device tree not founded \n"
 fi
+if [ -d device/motorola/ ]; then
+        printf "founded motorola device tree... cleaning \n"
+        printf "\n"
+        rm -r device/motorola
+else
+        printf "motorola device tree not founded \n"
+fi
 sleep 5
 
 echo ""

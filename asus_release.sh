@@ -7,6 +7,13 @@ sleep 5
 
 echo ""
 echo ""
+if [ -d device/motorola/ ]; then
+        printf "founded motorola device tree... cleaning \n"
+        printf "\n"
+        rm -r device/motorola
+else
+        printf "motorola device tree not founded \n"
+fi
 if [ -d device/amazon/ ]; then
         printf "founded amazon device tree... cleaning \n"
         printf "\n"
@@ -64,7 +71,7 @@ sleep 5
 echo "Woaaaaah it's tf300t time!"
 sleep 5
         repo sync -j15 && sh bam-build.sh tf300t
-                scp out/target/product/tf3007/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tf300t/
+                scp out/target/product/tf300t/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tf300t/
                 scp out/target/product/tf300t/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's tf700t time!"

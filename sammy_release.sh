@@ -5,6 +5,13 @@ echo ""
 echo "to avoid device tree conflict it's better if we remove other manufacturer device tree"
 sleep 5
 
+if [ -d device/motorola/ ]; then
+        printf "founded motorola device tree... cleaning \n"
+        printf "\n"
+        rm -r device/motorola
+else
+        printf "motorola device tree not founded \n"
+fi
 if [ -d device/amazon/ ]; then
         printf "founded amazon device tree... cleaning \n"
 	printf "\n"
@@ -188,6 +195,12 @@ sleep 5
         repo sync -j15 && sh bam-build.sh n8000
                 scp out/target/product/n8000/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/n8000/
                 scp out/target/product/n8000/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+
+echo "Woaaaaah it's n8013 time!"
+sleep 5
+        repo sync -j15 && sh bam-build.sh n8013
+                scp out/target/product/n8013/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/n8013/
+                scp out/target/product/n8013/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's p3100 time!"
 sleep 5
