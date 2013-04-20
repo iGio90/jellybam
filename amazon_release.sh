@@ -64,12 +64,12 @@ sleep 5
 
 echo "Woaaaaah it's otter time!"
 sleep 5
-        sh bam-build.sh true otter
+        sh bam-build.sh otter true
                 scp out/target/product/otter/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/otter/
                 scp out/target/product/otter/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's otter2 time!"
 sleep 5
-	sh bam-build.sh true otter2
+	sh bam-build.sh otter2 true
 		scp out/target/product/otter2/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/otter2/
 		scp out/target/product/otter2/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
