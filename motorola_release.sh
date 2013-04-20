@@ -62,42 +62,42 @@ sleep 5
 
 echo "Woaaaaah it's everest time!"
 sleep 5
-        repo sync -j15 && sh bam-build.sh everest
+        sh bam-build.sh true  everest
                 scp out/target/product/everest/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/everest/
                 scp out/target/product/everest/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's maserati time!"
 sleep 5
-	repo sync -j15 && sh bam-build.sh maserati
+	sh bam-build.sh true  maserati
 		scp out/target/product/maserati/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/maserati/
 		scp out/target/product/maserati/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's solana time!"
 sleep 5
-        repo sync -j15 && sh bam-build.sh solana
+        sh bam-build.sh true  solana
                 scp out/target/product/solana/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/solana/
                 scp out/target/product/solana/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's spyder time!"
 sleep 5
-	repo sync -j15 && sh bam-build.sh spyder
+	sh bam-build.sh true  spyder
 		scp out/target/product/spyder/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/spyder/
 		scp out/target/product/spyder/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's targa time!"
 sleep 5
-        repo sync -j15 && sh bam-build.sh targa
+        sh bam-build.sh true  targa
                 scp out/target/product/targa/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/targa/
                 scp out/target/product/targa/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's umts_spyder time!"
 sleep 5
-        repo sync -j15 && sh bam-build.sh umts_spyder
+        sh bam-build.sh true  umts_spyder
                 scp out/target/product/umts_spyder/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/umts_spyder/
                 scp out/target/product/umts_spyder/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's wingray time!"
 sleep 5
-        repo sync -j15 && sh bam-build.sh wingray
+        sh bam-build.sh true  wingray
                 scp out/target/product/wingray/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/wingray/
                 scp out/target/product/wingray/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/

@@ -61,42 +61,42 @@ sleep 5
 
 echo "Woaaaaah it's mako time!"
 sleep 5
-	repo sync -j15 && sh bam-build.sh mako
+	sh bam-build.sh true  mako
 		scp out/target/product/mako/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mako/
 		scp out/target/product/mako/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's p760 time!"
 sleep 5
-        repo sync -j15 && sh bam-build.sh p760
+        sh bam-build.sh true  p760
                 scp out/target/product/p760/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p760/
                 scp out/target/product/p760/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's p920 time!"
 sleep 5
-	repo sync -j15 && sh bam-build.sh p920
+	sh bam-build.sh true  p920
 		scp out/target/product/p920/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p920/
 		scp out/target/product/p920/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's p930 time!"
 sleep 5
-	repo sync -j15 && sh bam-build.sh p930
+	sh bam-build.sh true  p930
 		scp out/target/product/p930/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p930/
 		scp out/target/product/p930/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's p970 time!"
 sleep 5
-	repo sync -j15 && sh bam-build.sh p970
+	sh bam-build.sh true  p970
 		scp out/target/product/p970/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p970/
 		scp out/target/product/p970/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's p990 time!"
 sleep 5
-	repo sync -j15 && sh bam-build.sh p990
+	sh bam-build.sh true  p990
 		scp out/target/product/p990/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/p990/
 		scp out/target/product/p990/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
 
 echo "Woaaaaah it's su640 time!"
 sleep 5
-        repo sync -j15 && sh bam-build.sh su640
+        sh bam-build.sh true  su640
                 scp out/target/product/su640/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/su640/
                 scp out/target/product/su640/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
