@@ -64,40 +64,40 @@ echo "Woaaaaah it's everest time!"
 sleep 5
         sh bam-build.sh everest true
                 scp out/target/product/everest/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/everest/
-                scp out/target/product/everest/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+                scp out/target/product/everest/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's maserati time!"
 sleep 5
 	sh bam-build.sh maserati true
 		scp out/target/product/maserati/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/maserati/
-		scp out/target/product/maserati/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+		scp out/target/product/maserati/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's solana time!"
 sleep 5
         sh bam-build.sh solana true
                 scp out/target/product/solana/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/solana/
-                scp out/target/product/solana/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+                scp out/target/product/solana/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's spyder time!"
 sleep 5
 	sh bam-build.sh spyder true
 		scp out/target/product/spyder/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/spyder/
-		scp out/target/product/spyder/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+		scp out/target/product/spyder/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's targa time!"
 sleep 5
         sh bam-build.sh targa true
                 scp out/target/product/targa/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/targa/
-                scp out/target/product/targa/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+                scp out/target/product/targa/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's umts_spyder time!"
 sleep 5
         sh bam-build.sh umts_spyder true
                 scp out/target/product/umts_spyder/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/umts_spyder/
-                scp out/target/product/umts_spyder/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+                scp out/target/product/umts_spyder/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's wingray time!"
 sleep 5
         sh bam-build.sh wingray true
                 scp out/target/product/wingray/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/wingray/
-                scp out/target/product/wingray/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+                scp out/target/product/wingray/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/

@@ -64,16 +64,16 @@ echo "Woaaaaah it's mint time!"
 sleep 5
 	sh bam-build.sh mint true
 		scp out/target/product/mint/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/mint/
-		scp out/target/product/mint/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+		scp out/target/product/mint/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's tsubasa time!"
 sleep 5
 	sh bam-build.sh tsubasa true
 		scp out/target/product/tsubasa/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/tsubasa/
-		scp out/target/product/tsubasa/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+		scp out/target/product/tsubasa/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's yuga time!"
 sleep 5
         sh bam-build.sh yuga true
                 scp out/target/product/yuga/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/yuga/
-                scp out/target/product/yuga/jellybam*.zip root@94.23.250.163:/home/Jellybam/upload/
+                scp out/target/product/yuga/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
