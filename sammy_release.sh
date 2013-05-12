@@ -124,6 +124,12 @@ sleep 5
                 scp out/target/product/hercules/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/hercules/
                 scp out/target/product/hercules/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
+echo "Woaaaaah it's jfltetmo time!"
+sleep 5
+        sh bam-build.sh jfltetmo reuea
+                scp out/target/product/jfltetmo/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jfltetmo/
+                scp out/target/product/jfltetmo/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
 echo "Woaaaaah it's i605 time!"
 sleep 5
         sh bam-build.sh i605 true
