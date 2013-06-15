@@ -172,6 +172,54 @@ sleep 5
                 scp out/target/product/i9305/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/i9305/
                 scp out/target/product/i9305/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
+echo "Woaaaaah it's jflteatt time!"
+sleep 5
+        sh bam-build.sh jflteatt true
+                scp out/target/product/jflteatt/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jflteatt/
+                scp out/target/product/jflteatt/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's jfltecan time!"
+sleep 5
+        sh bam-build.sh jfltecan true
+                scp out/target/product/jfltecan/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jfltecan/
+                scp out/target/product/jfltecan/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's jflteri time!"
+sleep 5
+        sh bam-build.sh jflteatt true
+                scp out/target/product/jfltecri/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jfltecri/
+                scp out/target/product/jfltecri/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's jfltespr time!"
+sleep 5
+        sh bam-build.sh jfltespr true
+                scp out/target/product/jfltespr/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jfltespr/
+                scp out/target/product/jfltespr/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's jfltetmo time!"
+sleep 5
+        sh bam-build.sh jfltetmo true
+                scp out/target/product/jfltetmo/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jfltetmo/
+                scp out/target/product/jfltetmo/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's jflteusc time!"
+sleep 5
+        sh bam-build.sh jflteusc true
+                scp out/target/product/jflteusc/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jflteusc/
+                scp out/target/product/jflteusc/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's jfltevzw time!"
+sleep 5
+        sh bam-build.sh jfltevzw true
+                scp out/target/product/jfltevzw/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jfltevzw/
+                scp out/target/product/jfltevzw/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's jfltexx time!"
+sleep 5
+        sh bam-build.sh jfltexx true
+                scp out/target/product/jfltexx/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jfltexx/
+                scp out/target/product/jfltexx/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
 echo "Woaaaaah it's maguro time!"
 sleep 5
         sh bam-build.sh maguro true
