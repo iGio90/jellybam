@@ -79,9 +79,39 @@ sleep 5
 
 echo "Woaaaaah it's jewel time!"
 sleep 5
-	sh bam-build.sh jewel truew
+	sh bam-build.sh jewel true
 		scp out/target/product/jewel/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/jewel/
 		scp out/target/product/jewel/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's m7 time!"
+sleep 5
+        sh bam-build.sh m7 true
+                scp out/target/product/m7/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/m7/
+                scp out/target/product/m7/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's m7att time!"
+sleep 5
+        sh bam-build.sh m7att true
+                scp out/target/product/m7att/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/m7att/
+                scp out/target/product/m7att/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's m7spr time!"
+sleep 5
+        sh bam-build.sh m7spr true
+                scp out/target/product/m7spr/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/m7spr/
+                scp out/target/product/m7spr/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's m7tmo time!"
+sleep 5
+        sh bam-build.sh m7tmo true
+                scp out/target/product/m7tmo/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/m7tmo/
+                scp out/target/product/m7tmo/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
+
+echo "Woaaaaah it's m7ul time!"
+sleep 5
+        sh bam-build.sh m7ul true
+                scp out/target/product/m7ul/jellybam*.zip JellyBam@upload.goo.im:/home/JellyBam/m7ul/
+                scp out/target/product/m7ul/jellybam*.zip root@5.9.120.101:/home/Jellybam/upload/
 
 echo "Woaaaaah it's ville time!"
 sleep 5
